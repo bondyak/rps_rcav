@@ -25,7 +25,7 @@ class GameController < ApplicationController
       @result = " tied"
       @label = "label-warning"
     elsif @computer_move == "Rock"
-      @result = " won"
+      @result = " won" 
       @label = "label-success"
     elsif @computer_move == "Scissors"
       @result = " lost"
